@@ -6,7 +6,12 @@
 //  Copyright © 2017 omaralbeik. All rights reserved.
 //
 
-import Foundation
+#if os(macOS)
+	import Cocoa
+#else
+	import UIKit
+#endif
+
 import CoreLocation
 
 
